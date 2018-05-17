@@ -1,0 +1,21 @@
+﻿<Window x:Class="Przelicznik.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Przelicznik"
+        mc:Ignorable="d"
+        Title="Przelicznik jednostek" Height="400" Width="525">
+    <Grid>
+        <Button Content="Odległość" HorizontalAlignment="Left" Height="60" Margin="32,39,0,0" VerticalAlignment="Top" Width="120" Click="bOdleglosci"/>
+        <Button Content="Masa" HorizontalAlignment="Left" Height="60" Margin="178,39,0,0" VerticalAlignment="Top" Width="120" Click="bMasa"/>
+        <Button Content="Prędkość" HorizontalAlignment="Left" Height="60" Margin="331,39,0,0" VerticalAlignment="Top" Width="120" Click="bPredkosc"/>
+        <Button Content="Powierzchnia" HorizontalAlignment="Left" Height="60" Margin="32,114,0,0" VerticalAlignment="Top" Width="120" Click="bPowierzchnia"/>
+        <Button Content="Temperatura" HorizontalAlignment="Left" Height="60" Margin="178,114,0,0" VerticalAlignment="Top" Width="120" Click="Button_Click_1"/>
+        <Button Content="Systemy liczbowe" HorizontalAlignment="Left" Height="60" Margin="331,114,0,0" VerticalAlignment="Top" Width="120" Click="Button_Click_1"/>
+        <Button Content="Przestrzeń barw" HorizontalAlignment="Left" Height="60" Margin="32,195,0,0" VerticalAlignment="Top" Width="120" Click="Button_Click_1"/>
+        <Button Content="Spalanie paliwa" HorizontalAlignment="Left" Height="60" Margin="178,195,0,0" VerticalAlignment="Top" Width="120" Click="Button_Click_1"/>
+        <Button Content="Czas" HorizontalAlignment="Left" Height="60" Margin="331,195,0,0" VerticalAlignment="Top" Width="120" Click="Button_Click_1"/>
+
+    </Grid>
+</Window>
