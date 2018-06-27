@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -41,7 +42,7 @@ namespace Przelicznik
             double na_podstawowa = z.ilosc_w_jednostce_podstawowej;
             //double z_podstawowej_na_finalna = this.jednostkaPodstawowa(na.kategoria).ilosc_w_jednostce_podstawowej;
             double z_podstawowej_na_finalna = na.ilosc_w_jednostce_podstawowej;
-
+            Debug.Write("z");
 
             return (wartosc*na_podstawowa)/z_podstawowej_na_finalna;
         }

@@ -8,13 +8,22 @@
         Title="Przelicznik jednostek - Odległości" Height="400" Width="525">
     <Grid>
         <TextBox x:Name="zInput" HorizontalAlignment="Left" Height="30" Margin="42,111,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="130"/>
-        <ListBox HorizontalAlignment="Left" Height="30" Margin="42,146,0,0" VerticalAlignment="Top" Width="130" />
         <Label Content="Przeliczanie odległości" HorizontalAlignment="Left" Height="41" Margin="32,19,0,0" VerticalAlignment="Top" Width="316" FontSize="20" FontWeight="Bold"/>
         <Label Content="Z" HorizontalAlignment="Left" Height="34" Margin="42,79,0,0" VerticalAlignment="Top" Width="58"/>
         <Label Content="Na" HorizontalAlignment="Left" Height="34" Margin="201,79,0,0" VerticalAlignment="Top" Width="58"/>
         <TextBox x:Name="naInput" HorizontalAlignment="Left" Height="30" Margin="201,111,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="130"/>
-        <ListBox HorizontalAlignment="Left" Height="30" Margin="201,146,0,0" VerticalAlignment="Top" Width="130" />
-        <Button x:Name="bPrzelicz" Content="Button" HorizontalAlignment="Left" Height="97" Margin="383,79,0,0" VerticalAlignment="Top" Width="102" Click="bPrzelicz_Click"/>
+
+        <Button x:Name="bPrzelicz" Content="Przelicz" HorizontalAlignment="Left" Height="62" Margin="392,111,0,0" VerticalAlignment="Top" Width="102" Click="bPrzelicz_Click"/>
+        
+        <RadioButton x:Name="centymetr_Copy" GroupName="a" Content="centymetr" HorizontalAlignment="Left" Margin="201,168,0,0" VerticalAlignment="Top" Checked="centymetr_Copy_Checked"/>
+        <RadioButton x:Name="metr_Copy" GroupName="a" Content="metr" HorizontalAlignment="Left" Margin="201,210,0,0" VerticalAlignment="Top" Checked="metr_Copy_Checked"/>
+        <RadioButton x:Name="cal_Copy" GroupName="a"  Content="cal" HorizontalAlignment="Left" Margin="201,189,0,0" VerticalAlignment="Top" Checked="cal_Copy_Checked"/>
+
+        <RadioButton x:Name="centymetr" GroupName="b" Content="centymetr" HorizontalAlignment="Left" Margin="42,160,0,0" VerticalAlignment="Top" Checked="centymetr_Checked"/>
+        <RadioButton x:Name="metr" GroupName="b" Content="metr" HorizontalAlignment="Left" Margin="42,202,0,0" VerticalAlignment="Top" Checked="metr_Checked"/>
+        <RadioButton x:Name="cal" GroupName="b" Content="cal" HorizontalAlignment="Left" Margin="42,181,0,0" VerticalAlignment="Top" Checked="cal_Checked"/>
+        <Button x:Name="bExit" Content="Wróć" HorizontalAlignment="Left" Height="62" Margin="392,10,0,0" VerticalAlignment="Top" Width="102" Click="bExit_Click"/>
+
 
     </Grid>
 </Window>

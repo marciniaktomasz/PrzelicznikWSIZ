@@ -19,18 +19,64 @@ namespace Przelicznik
     /// </summary>
     public partial class odleglosci : Window
     {
+        String zJednostka_string = "centymetr";
+        String naJednostka_string = "centymetr";
+
         public odleglosci()
         {
             InitializeComponent();
+            zInput.Text = "0";
         }
 
         private void bPrzelicz_Click(object sender, RoutedEventArgs e)
         {
             Aplication przelicznik = new Aplication();
             Double ilosc = Convert.ToDouble(zInput.Text);
-            Double ilosc_po_konwersji = przelicznik.przelicz("centymetr", "metr", ilosc);
 
+            
+
+            Double ilosc_po_konwersji = przelicznik.przelicz(zJednostka_string, naJednostka_string, ilosc);
+
+            
             this.naInput.Text = ilosc_po_konwersji.ToString();
         }
+
+        private void centymetr_Checked(object sender, RoutedEventArgs e)
+        {
+            zJednostka_string = "centymetr";
+        }
+
+        private void cal_Checked(object sender, RoutedEventArgs e)
+        {
+            zJednostka_string = "cal";
+        }
+
+        private void metr_Checked(object sender, RoutedEventArgs e)
+        {
+            zJednostka_string = "metr";
+        }
+
+        private void centymetr_Copy_Checked(object sender, RoutedEventArgs e)
+        {
+            naJednostka_string = "centymetr";
+        }
+
+        private void cal_Copy_Checked(object sender, RoutedEventArgs e)
+        {
+            naJednostka_string = "cal";
+        }
+
+        private void metr_Copy_Checked(object sender, RoutedEventArgs e)
+        {
+            naJednostka_string = "metr";
+        }
+
+        private void bExit_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow view = new MainWindow();
+            view.Show();
+            this.Close();
+        }
     }
+    
 }
