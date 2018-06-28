@@ -18,6 +18,10 @@ namespace Przelicznik
         public jednostki kilogram;
         public jednostki kwintal;
 
+        public jednostki metrys;
+        public jednostki kilometryh;
+        public jednostki mileh;
+
 
         public Aplication()
         {
@@ -31,6 +35,11 @@ namespace Przelicznik
             funt = new jednostki("masa", "funt", "kilogram", 0.45359237);
             kilogram = new jednostki("masa", "kilogram", "kilogram", 1.0);
             kwintal = new jednostki("masa", "kwintal", "kilogram", 100.0);
+
+            //predkosci
+            metrys = new jednostki("predkosc", "metry/s", "metry/s", 1.0);
+            kilometryh = new jednostki("predkosc", "kilometry/h", "metry/s", 0.2777777778);
+            mileh = new jednostki("predkosc", "mile/h", "metry/s", 0.4470311111);
 
         }
 
@@ -48,6 +57,9 @@ namespace Przelicznik
             else if (name == "funt") { return funt; }
             else if (name == "kilogram") { return kilogram; }
             else if (name == "kwintal") { return kwintal; }
+            else if (name == "metry/s") { return metrys; }
+            else if (name == "kilometry/h") { return kilometryh; }
+            else if (name == "mile/h") { return mileh; }
             else { return centymetr; }
         }
 

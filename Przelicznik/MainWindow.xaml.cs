@@ -41,7 +41,9 @@ namespace Przelicznik
 
         private void bPredkosc(object sender, RoutedEventArgs e)
         {
-
+            predkosci view = new predkosci();
+            view.Show();
+            this.Close();
         }
 
         private void bPowierzchnia(object sender, RoutedEventArgs e)

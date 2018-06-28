@@ -72,6 +72,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="predkosci.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="odleglosci.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -80,6 +84,9 @@
   <ItemGroup>
     <Compile Include="masa.xaml.cs">
       <DependentUpon>masa.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="predkosci.xaml.cs">
+      <DependentUpon>predkosci.xaml</DependentUpon>
     </Compile>
     <Compile Include="odleglosci.xaml.cs">
       <DependentUpon>odleglosci.xaml</DependentUpon>
