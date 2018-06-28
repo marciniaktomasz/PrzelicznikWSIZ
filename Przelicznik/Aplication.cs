@@ -22,6 +22,12 @@ namespace Przelicznik
         public jednostki kilometryh;
         public jednostki mileh;
 
+        public jednostki mm2;
+        public jednostki cm2;
+        public jednostki m2;
+        public jednostki ar;
+        public jednostki ha;
+
 
         public Aplication()
         {
@@ -40,6 +46,13 @@ namespace Przelicznik
             metrys = new jednostki("predkosc", "metry/s", "metry/s", 1.0);
             kilometryh = new jednostki("predkosc", "kilometry/h", "metry/s", 0.2777777778);
             mileh = new jednostki("predkosc", "mile/h", "metry/s", 0.4470311111);
+
+            //powierzchnia
+            mm2 = new jednostki("powierzchnia", "mm2", "m2", 0.000001);
+            cm2 = new jednostki("powierzchnia", "cm2", "m2", 0.0001);
+            m2 = new jednostki("powierzchnia", "m2", "m2", 1.0);
+            ar = new jednostki("powierzchnia", "ar", "m2", 100);
+            ha = new jednostki("powierzchnia", "ha", "m2", 10000.0);
 
         }
 
@@ -60,6 +73,11 @@ namespace Przelicznik
             else if (name == "metry/s") { return metrys; }
             else if (name == "kilometry/h") { return kilometryh; }
             else if (name == "mile/h") { return mileh; }
+            else if (name == "mm2") { return mm2; }
+            else if (name == "cm2") { return cm2; }
+            else if (name == "m2") { return m2; }
+            else if (name == "ar") { return ar; }
+            else if (name == "ha") { return ha; }
             else { return centymetr; }
         }
 

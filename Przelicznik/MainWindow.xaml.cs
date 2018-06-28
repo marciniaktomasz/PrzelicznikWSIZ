@@ -48,7 +48,9 @@ namespace Przelicznik
 
         private void bPowierzchnia(object sender, RoutedEventArgs e)
         {
-
+            powierzchnia view = new powierzchnia();
+            view.Show();
+            this.Close();
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
