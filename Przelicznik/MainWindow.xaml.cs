@@ -34,7 +34,9 @@ namespace Przelicznik
 
         private void bMasa(object sender, RoutedEventArgs e)
         {
-
+            masa view = new masa();
+            view.Show();
+            this.Close();
         }
 
         private void bPredkosc(object sender, RoutedEventArgs e)
