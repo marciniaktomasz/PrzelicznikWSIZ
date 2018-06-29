@@ -20,7 +20,7 @@
         <RadioButton x:Name="metryH" GroupName="b" Content="metry/s" HorizontalAlignment="Left" Margin="42,160,0,0" VerticalAlignment="Top" Checked="metryH_Checked" />
         <RadioButton x:Name="mileH" GroupName="b" Content="mile/h" HorizontalAlignment="Left" Margin="42,202,0,0" VerticalAlignment="Top" Checked="mileH_Checked" />
         <RadioButton x:Name="kilometryH" GroupName="b" Content="kilometry/h" HorizontalAlignment="Left" Margin="42,181,0,0" VerticalAlignment="Top" Checked="kilometryH_Checked" />
-        <Button x:Name="bExit" Content="Wróć" HorizontalAlignment="Left" Height="62" Margin="392,10,0,0" VerticalAlignment="Top" Width="102"/>
+        <Button x:Name="bExit" Content="Wróć" HorizontalAlignment="Left" Height="62" Margin="392,10,0,0" VerticalAlignment="Top" Width="102" Click="bExit_Click"/>
         <RadioButton x:Name="metryH_Copy" GroupName="a" Content="metry/s" HorizontalAlignment="Left" Margin="201,160,0,0" VerticalAlignment="Top" Checked="metryH_Copy_Checked" />
         <RadioButton x:Name="mileH_Copy" GroupName="a" Content="mile/h" HorizontalAlignment="Left" Margin="201,202,0,0" VerticalAlignment="Top" Checked="mileH_Copy_Checked" />
         <RadioButton x:Name="kilometryH_Copy" GroupName="a" Content="kilometry/h" HorizontalAlignment="Left" Margin="201,181,0,0" VerticalAlignment="Top" Checked="kilometryH_Copy_Checked" />

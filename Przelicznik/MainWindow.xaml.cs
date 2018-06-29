@@ -59,5 +59,10 @@ namespace Przelicznik
             view.Show();
             this.Close();
         }
+
+        private void exit_Click(object sender, RoutedEventArgs e)
+        {
+            System.Windows.Application.Current.Shutdown();
+        }
     }
 }

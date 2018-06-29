@@ -12,7 +12,7 @@
         <Button Content="Prędkość" HorizontalAlignment="Left" Height="60" Margin="175,172,0,0" VerticalAlignment="Top" Width="120" Click="bPredkosc"/>
         <Button Content="Powierzchnia" HorizontalAlignment="Left" Height="60" Margin="29,172,0,0" VerticalAlignment="Top" Width="120" Click="bPowierzchnia"/>
         <Button Content="Autor" HorizontalAlignment="Left" Height="60" Margin="370,97,0,0" VerticalAlignment="Top" Width="120" Click="Button_Click_1"/>
-        <Button Content="Wyjście" HorizontalAlignment="Left" Height="60" Margin="370,172,0,0" VerticalAlignment="Top" Width="120" Click="Button_Click_1"/>
+        <Button x:Name="exit" Content="Wyjście" HorizontalAlignment="Left" Height="60" Margin="370,172,0,0" VerticalAlignment="Top" Width="120" Click="exit_Click"/>
         <Label Content="PRZELICZNIK" HorizontalAlignment="Left" Height="50" Margin="29,7,0,0" VerticalAlignment="Top" Width="461" FontWeight="Bold" FontSize="24"/>
         <Label Content="by Tomasz Marciniak" HorizontalAlignment="Left" Height="50" Margin="29,39,0,0" VerticalAlignment="Top" Width="461" FontWeight="Bold"/>
 
