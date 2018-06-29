@@ -55,7 +55,9 @@ namespace Przelicznik
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-
+           autor view = new autor();
+            view.Show();
+            this.Close();
         }
     }
 }

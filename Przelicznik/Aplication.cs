@@ -29,6 +29,8 @@ namespace Przelicznik
         public jednostki ha;
 
 
+
+
         public Aplication()
         {
             //ODLEGŁOSCI
@@ -54,12 +56,10 @@ namespace Przelicznik
             ar = new jednostki("powierzchnia", "ar", "m2", 100);
             ha = new jednostki("powierzchnia", "ha", "m2", 10000.0);
 
+     
+
         }
 
-        public jednostki jednostkaPodstawowa(string name) {
-            if (name == "odległości") { return centymetr; }
-            else { return centymetr; }
-        }
 
         public jednostki klasaPoNazwie(string name)
         {

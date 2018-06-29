@@ -76,6 +76,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="autor.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="predkosci.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -91,6 +95,9 @@
     </Compile>
     <Compile Include="powierzchnia.xaml.cs">
       <DependentUpon>powierzchnia.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="autor.xaml.cs">
+      <DependentUpon>autor.xaml</DependentUpon>
     </Compile>
     <Compile Include="predkosci.xaml.cs">
       <DependentUpon>predkosci.xaml</DependentUpon>

@@ -8,7 +8,7 @@
         Title="Przelicznik jednostek - Powierzchnia" Height="400" Width="525">
     <Grid>
         <TextBox x:Name="zInput" HorizontalAlignment="Left" Height="30" Margin="42,111,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="130"/>
-        <Label Content="Przeliczanie odległości" HorizontalAlignment="Left" Height="41" Margin="32,19,0,0" VerticalAlignment="Top" Width="316" FontSize="20" FontWeight="Bold"/>
+        <Label Content="Przeliczanie powierzchni" HorizontalAlignment="Left" Height="41" Margin="32,19,0,0" VerticalAlignment="Top" Width="316" FontSize="20" FontWeight="Bold"/>
         <Label Content="Z" HorizontalAlignment="Left" Height="34" Margin="42,79,0,0" VerticalAlignment="Top" Width="58"/>
         <Label Content="Na" HorizontalAlignment="Left" Height="34" Margin="201,79,0,0" VerticalAlignment="Top" Width="58"/>
         <TextBox x:Name="naInput" HorizontalAlignment="Left" Height="30" Margin="201,111,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="130"/>

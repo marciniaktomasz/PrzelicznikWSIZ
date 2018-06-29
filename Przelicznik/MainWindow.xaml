@@ -7,14 +7,14 @@
         mc:Ignorable="d"
         Title="Przelicznik jednostek" Height="322.881" Width="525">
     <Grid>
-        <Button Content="Odległość" HorizontalAlignment="Left" Height="60" Margin="32,39,0,0" VerticalAlignment="Top" Width="120" Click="bOdleglosci"/>
-        <Button Content="Masa" HorizontalAlignment="Left" Height="60" Margin="178,39,0,0" VerticalAlignment="Top" Width="120" Click="bMasa"/>
-        <Button Content="Prędkość" HorizontalAlignment="Left" Height="60" Margin="331,39,0,0" VerticalAlignment="Top" Width="120" Click="bPredkosc"/>
-        <Button Content="Powierzchnia" HorizontalAlignment="Left" Height="60" Margin="32,114,0,0" VerticalAlignment="Top" Width="120" Click="bPowierzchnia"/>
-        <Button Content="Temperatura" HorizontalAlignment="Left" Height="60" Margin="178,114,0,0" VerticalAlignment="Top" Width="120" Click="Button_Click_1"/>
-        <Button Content="Autor" HorizontalAlignment="Left" Height="60" Margin="104,204,0,0" VerticalAlignment="Top" Width="120" Click="Button_Click_1"/>
-        <Button Content="Czas" HorizontalAlignment="Left" Height="60" Margin="331,114,0,0" VerticalAlignment="Top" Width="120" Click="Button_Click_1"/>
-        <Button Content="Wyjście" HorizontalAlignment="Left" Height="60" Margin="250,204,0,0" VerticalAlignment="Top" Width="120" Click="Button_Click_1"/>
+        <Button Content="Odległość" HorizontalAlignment="Left" Height="60" Margin="29,97,0,0" VerticalAlignment="Top" Width="120" Click="bOdleglosci"/>
+        <Button Content="Masa" HorizontalAlignment="Left" Height="60" Margin="175,97,0,0" VerticalAlignment="Top" Width="120" Click="bMasa"/>
+        <Button Content="Prędkość" HorizontalAlignment="Left" Height="60" Margin="175,172,0,0" VerticalAlignment="Top" Width="120" Click="bPredkosc"/>
+        <Button Content="Powierzchnia" HorizontalAlignment="Left" Height="60" Margin="29,172,0,0" VerticalAlignment="Top" Width="120" Click="bPowierzchnia"/>
+        <Button Content="Autor" HorizontalAlignment="Left" Height="60" Margin="370,97,0,0" VerticalAlignment="Top" Width="120" Click="Button_Click_1"/>
+        <Button Content="Wyjście" HorizontalAlignment="Left" Height="60" Margin="370,172,0,0" VerticalAlignment="Top" Width="120" Click="Button_Click_1"/>
+        <Label Content="PRZELICZNIK" HorizontalAlignment="Left" Height="50" Margin="29,7,0,0" VerticalAlignment="Top" Width="461" FontWeight="Bold" FontSize="24"/>
+        <Label Content="by Tomasz Marciniak" HorizontalAlignment="Left" Height="50" Margin="29,39,0,0" VerticalAlignment="Top" Width="461" FontWeight="Bold"/>
 
     </Grid>
 </Window>
