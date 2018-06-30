@@ -8,7 +8,7 @@
         Title="Przelicznik jednostek - Prędkości" Height="362.712" Width="525">
     <Grid Margin="0,0,0,176">
         <Label Content="O autorze" HorizontalAlignment="Left" Height="41" Margin="32,19,0,0" VerticalAlignment="Top" Width="316" FontSize="20" FontWeight="Bold"/>
-        <Button x:Name="bExit" Content="Wróć" HorizontalAlignment="Left" Height="62" Margin="392,10,0,0" VerticalAlignment="Top" Width="102"/>
+        <Button x:Name="bExit" Content="Wróć" HorizontalAlignment="Left" Height="62" Margin="392,10,0,0" VerticalAlignment="Top" Width="102" Click="bExit_Click"/>
         <TextBlock HorizontalAlignment="Left" Margin="32,96,0,0" TextWrapping="Wrap" Text="Autorem aplikacji jest Tomasz Marciniak, student Wyższej Szkoły Informatyki i Zarządzania w Rzeszowie. Aplikacja powstała w ramach projektu z przedmiotu Podstawy Programowania. Została wykonana w języku C# i technologi WPF." VerticalAlignment="Top" Height="60" Width="456">
 
         </TextBlock>

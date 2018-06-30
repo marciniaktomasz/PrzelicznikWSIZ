@@ -37,6 +37,7 @@ namespace Przelicznik
             this.Close();
         }
 
+       
     }
     
 }
