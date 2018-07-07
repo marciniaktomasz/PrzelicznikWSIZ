@@ -31,7 +31,7 @@ namespace Przelicznik
         /// <summary>
         /// Wykonuje konwersję masy
         /// </summary>
-        private void bPrzelicz_Click(object sender, RoutedEventArgs e)
+        public void bPrzelicz_Click(object sender, RoutedEventArgs e)
         {
             Aplication przelicznik = new Aplication();
             Double ilosc = Convert.ToDouble(zInput.Text);
@@ -48,7 +48,7 @@ namespace Przelicznik
         /// <summary>
         /// powrót do menu głównego
         /// </summary>
-        private void bExit_Click(object sender, RoutedEventArgs e)
+        public void bExit_Click(object sender, RoutedEventArgs e)
         {
             MainWindow view = new MainWindow();
             view.Show();
@@ -58,7 +58,7 @@ namespace Przelicznik
         /// <summary>
         /// Ustawia jednostkę po kliknięciu na checkbox - gram
         /// </summary>
-        private void gram_Checked(object sender, RoutedEventArgs e)
+        public void gram_Checked(object sender, RoutedEventArgs e)
         {
             zJednostka_string = "gram";
         }
@@ -66,7 +66,7 @@ namespace Przelicznik
         /// <summary>
         /// Ustawia jednostkę po kliknięciu na checkbox - funt
         /// </summary>
-        private void funt_Checked(object sender, RoutedEventArgs e)
+        public void funt_Checked(object sender, RoutedEventArgs e)
         {
             zJednostka_string = "funt";
         }
@@ -74,7 +74,7 @@ namespace Przelicznik
         /// <summary>
         /// Ustawia jednostkę po kliknięciu na checkbox - kilogram
         /// </summary>
-        private void kilogram_Checked(object sender, RoutedEventArgs e)
+        public void kilogram_Checked(object sender, RoutedEventArgs e)
         {
             zJednostka_string = "kilogram";
         }
@@ -82,7 +82,7 @@ namespace Przelicznik
         /// <summary>
         /// Ustawia jednostkę po kliknięciu na checkbox - kwintal
         /// </summary>
-        private void kwintal_Checked(object sender, RoutedEventArgs e)
+        public void kwintal_Checked(object sender, RoutedEventArgs e)
         {
             zJednostka_string = "kwintal";
         }
@@ -90,7 +90,7 @@ namespace Przelicznik
         /// <summary>
         /// Ustawia jednostkę po kliknięciu na checkbox - gram
         /// </summary>
-        private void gram_Copy_Checked(object sender, RoutedEventArgs e)
+        public void gram_Copy_Checked(object sender, RoutedEventArgs e)
         {
             naJednostka_string = "gram";
         }
@@ -98,7 +98,7 @@ namespace Przelicznik
         /// <summary>
         /// Ustawia jednostkę po kliknięciu na checkbox - funt
         /// </summary>
-        private void funt_Copy_Checked(object sender, RoutedEventArgs e)
+        public void funt_Copy_Checked(object sender, RoutedEventArgs e)
         {
             naJednostka_string = "funt";
         }
@@ -106,7 +106,7 @@ namespace Przelicznik
         /// <summary>
         /// Ustawia jednostkę po kliknięciu na checkbox - kilogram
         /// </summary>
-        private void kilogram_Copy_Checked(object sender, RoutedEventArgs e)
+        public void kilogram_Copy_Checked(object sender, RoutedEventArgs e)
         {
             naJednostka_string = "kilogram";
         }
@@ -114,7 +114,7 @@ namespace Przelicznik
         /// <summary>
         /// Ustawia jednostkę po kliknięciu na checkbox - kwintal
         /// </summary>
-        private void kwintal_Copy_Checked(object sender, RoutedEventArgs e)
+        public void kwintal_Copy_Checked(object sender, RoutedEventArgs e)
         {
             naJednostka_string = "kwintal";
         }
