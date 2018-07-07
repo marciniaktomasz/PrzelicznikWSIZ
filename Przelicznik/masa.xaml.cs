@@ -28,6 +28,9 @@ namespace Przelicznik
             zInput.Text = "0";
         }
 
+        /// <summary>
+        /// Wykonuje konwersję masy
+        /// </summary>
         private void bPrzelicz_Click(object sender, RoutedEventArgs e)
         {
             Aplication przelicznik = new Aplication();
@@ -41,8 +44,10 @@ namespace Przelicznik
             this.naInput.Text = ilosc_po_konwersji.ToString();
         }
 
-       
 
+        /// <summary>
+        /// powrót do menu głównego
+        /// </summary>
         private void bExit_Click(object sender, RoutedEventArgs e)
         {
             MainWindow view = new MainWindow();
@@ -50,41 +55,65 @@ namespace Przelicznik
             this.Close();
         }
 
+        /// <summary>
+        /// Ustawia jednostkę po kliknięciu na checkbox - gram
+        /// </summary>
         private void gram_Checked(object sender, RoutedEventArgs e)
         {
             zJednostka_string = "gram";
         }
 
+        /// <summary>
+        /// Ustawia jednostkę po kliknięciu na checkbox - funt
+        /// </summary>
         private void funt_Checked(object sender, RoutedEventArgs e)
         {
             zJednostka_string = "funt";
         }
 
+        /// <summary>
+        /// Ustawia jednostkę po kliknięciu na checkbox - kilogram
+        /// </summary>
         private void kilogram_Checked(object sender, RoutedEventArgs e)
         {
             zJednostka_string = "kilogram";
         }
 
+        /// <summary>
+        /// Ustawia jednostkę po kliknięciu na checkbox - kwintal
+        /// </summary>
         private void kwintal_Checked(object sender, RoutedEventArgs e)
         {
             zJednostka_string = "kwintal";
         }
 
+        /// <summary>
+        /// Ustawia jednostkę po kliknięciu na checkbox - gram
+        /// </summary>
         private void gram_Copy_Checked(object sender, RoutedEventArgs e)
         {
             naJednostka_string = "gram";
         }
 
+        /// <summary>
+        /// Ustawia jednostkę po kliknięciu na checkbox - funt
+        /// </summary>
         private void funt_Copy_Checked(object sender, RoutedEventArgs e)
         {
             naJednostka_string = "funt";
         }
 
+        /// <summary>
+        /// Ustawia jednostkę po kliknięciu na checkbox - kilogram
+        /// </summary>
         private void kilogram_Copy_Checked(object sender, RoutedEventArgs e)
         {
             naJednostka_string = "kilogram";
         }
 
+        /// <summary>
+        /// Ustawia jednostkę po kliknięciu na checkbox - kwintal
+        /// </summary>
         private void kwintal_Copy_Checked(object sender, RoutedEventArgs e)
         {
             naJednostka_string = "kwintal";

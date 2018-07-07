@@ -25,6 +25,9 @@ namespace Przelicznik
             InitializeComponent();
         }
 
+        /// <summary>
+        /// Otwiera okno przeliczania jednostek odległości
+        /// </summary>
         private void bOdleglosci(object sender, RoutedEventArgs e)
         {
             odleglosci view = new odleglosci();
@@ -32,6 +35,9 @@ namespace Przelicznik
             this.Close();
         }
 
+        /// <summary>
+        /// Otwiera okno przeliczania jednostek masy
+        /// </summary>
         private void bMasa(object sender, RoutedEventArgs e)
         {
             masa view = new masa();
@@ -39,6 +45,9 @@ namespace Przelicznik
             this.Close();
         }
 
+        /// <summary>
+        /// Otwiera okno przeliczania jednostek prędkości
+        /// </summary>
         private void bPredkosc(object sender, RoutedEventArgs e)
         {
             predkosci view = new predkosci();
@@ -46,6 +55,9 @@ namespace Przelicznik
             this.Close();
         }
 
+        /// <summary>
+        /// Otwiera okno przeliczania jednostek powierzchni
+        /// </summary>
         private void bPowierzchnia(object sender, RoutedEventArgs e)
         {
             powierzchnia view = new powierzchnia();
@@ -53,6 +65,9 @@ namespace Przelicznik
             this.Close();
         }
 
+        /// <summary>
+        /// Otwiera okno z informacjami o autorze
+        /// </summary>
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
            autor view = new autor();
@@ -60,6 +75,9 @@ namespace Przelicznik
             this.Close();
         }
 
+        /// <summary>
+        /// Zamyka aplikacje
+        /// </summary>
         private void exit_Click(object sender, RoutedEventArgs e)
         {
             System.Windows.Application.Current.Shutdown();

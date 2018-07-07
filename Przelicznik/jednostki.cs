@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Przelicznik
 {
+    /// <summary>
+    /// Klasa przechowująca informację o jednostkach
+    /// </summary>
     class jednostki
     {
         public string kategoria;

@@ -26,10 +26,12 @@ namespace Przelicznik
 
         }
 
-       
 
-       
 
+
+        /// <summary>
+        /// Wrca do menu głównego
+        /// </summary>
         private void bExit_Click(object sender, RoutedEventArgs e)
         {
             MainWindow view = new MainWindow();

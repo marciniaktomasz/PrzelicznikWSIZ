@@ -61,6 +61,10 @@ namespace Przelicznik
         }
 
 
+        /// <summary>
+        /// Zwraca klase wg. jej nazwy
+        /// <return>Klasa z jednostką zgodnie z podaną nazwą</return>
+        /// </summary>
         public jednostki klasaPoNazwie(string name)
         {
             if (name == "centymetr") { return centymetr; }
@@ -81,6 +85,10 @@ namespace Przelicznik
             else { return centymetr; }
         }
 
+        /// <summary>
+        /// Wykonuje konwersję podanej jednostki na żadąną jednostkę
+        /// <return>Przelcizona wartość wejściowej jednostki</return>
+        /// </summary>
         public double przelicz(String z_, String na_, double wartosc)
         {
             jednostki z = this.klasaPoNazwie(z_);
